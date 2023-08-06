@@ -13,11 +13,22 @@ a:hover {
     opacity: 0.7;
 }
 
+.capa {
+    background: url("/img/O-que-fazer-no-Recife-antigo-a-noite.jpg");
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
 .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: bisque;
+    background-image: url(/img/fotos_logo/visitrecife-color.png);
+    height: 65px;
+    width: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 nav {
@@ -26,17 +37,15 @@ nav {
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #23232e;
-    height: 8vh;
+    height: 20vh;
 }
 
-main {
-    background: url("/img/O-que-fazer-no-Recife-antigo-a-noite.jpg");
-    height: 100svh;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    
-    
+  
+.title {
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    text-shadow: 0.1em 0.1em 0.2em black
     
 }
 
@@ -49,3 +58,104 @@ main {
     letter-spacing: 3px;
     margin-left: 32px;
 }
+
+footer{
+    background-color: #222222;
+    padding:20px;
+    color: white;
+}
+
+.footer_social_media {
+    display: flex;
+    background-color: #23232e;
+}
+
+.footer-links {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;    
+}
+
+.icon-social{
+    height: 40px;
+    width: 40px;
+    display: block;
+    background-size: contain;
+    margin: 5px 15px;
+}
+
+.icon-social.twitter{
+    background-image: url(/img/fotos_logo/twitter.png.jpg);
+}
+
+.icon-social.youtube{
+    background-image: url(/img/fotos_logo/youtube.png);
+}
+
+.icon-social.facebook{
+    background-image: url(/img/fotos_logo/facebook.png);
+}
+
+
+.nav-list-rodape{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
+
+.rodape-list{
+    background-image: url(/img/fotos_logo/logo_gestao_prefeitura.png);
+}
+
+.rodape-text{
+    color: #fff;
+}
+
+.copyright{
+    color #fff;
+    display: flex;
+}
+
+.title-row{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #23232e;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.text{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-0%);
+    color: #23232e;
+    font-size: 20px;
+    padding: 0px;
+ 
+  
+}
+
+.image{
+    width: 350px;
+    height: 350px;  
+    padding: 70px; 
+    margin-left: 10px;
+}
+
+
+
+
+    
